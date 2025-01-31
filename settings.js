@@ -1,11 +1,11 @@
   //project_name : XPLOADER
-// @author : TYLOR
+// @author : kaks
 // @youtube : https://www.youtube.com/@heyits_tylor
-// @instagram : heyits_tylor
-// @telegram : t.me/heyits_tylor
+// @instagram : kaks
+// @telegram : kaks256
 // @github : Dark-Xploit
-// @tiktok : heyits_tylor
-// @whatsapp : +254754783972
+// @tiktok : kaksthebeber
+// @whatsapp : +256743391566
 //*
 //* 
 //=================================================//
@@ -15,7 +15,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
 //=================================================//
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'XPLOADER-BOT:~D7gSUTrQ#nAsTjm6vhWhed9Tdt3SkOdGcvxii8lFum4WSmnM2f_c' 
 //Enter your Xploader session id here; must start with XPLOADER-BOT:~
 
 //=================================================//
@@ -23,16 +23,16 @@ global.botname = process.env.BOT_NAME || '᙭ᑭᒪOᗩᗪᗴᖇ ᗷOT'
 //Your desired bot name
 
 //=================================================//
-global.ownernumber = process.env.OWNER_NUMBER || '254754783972' 
+global.ownernumber = process.env.OWNER_NUMBER || '256743391566' 
 //Type your main number here
 
 //=================================================//
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['254796180105', '254712345678'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['256743391566', '256743391566'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //=================================================//
-global.ownername = process.env.OWNER_NAME || 'Tylor' 
+global.ownername = process.env.OWNER_NAME || 'google' 
 //Type your name here
 
 //=================================================//
@@ -66,7 +66,7 @@ global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'true'
 // set true to enable and false to disable auto status view
 
 //=================================================//
-global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'false'
+global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'true'
 // set true to enable and false to disable auto status react
 
 //=================================================//
@@ -83,7 +83,7 @@ global.anticall = process.env.ANTI_CALL || 'false'
 // set true to enable and false to disable auto blocking of callers
 
 //=================================================//
-global.welcome = process.env.WELCOME_MSG || 'false'
+global.welcome = process.env.WELCOME_MSG || 'true'
 // set true to enable and false to disable welcoming and left messages to groups upon joining or leaving groups
 
 //=================================================//
